@@ -1,0 +1,212 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}
+.text-footer{
+    text-align: center;
+}
+img{
+    border-radius: 5%;
+}
+a{
+    color:#ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff6b81;
+}
+/*CSS for navbar section */
+.logo{
+    width: 20%;
+    float: left; 
+}
+.menu{
+    line-height: 30px;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*CSS for food-search section */
+.food-search {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+
+}
+.food-search input[type="search"]{
+    width:50% ;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/*CSS for categories section */
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 100%;
+    float: left;
+    margin: 2%;
+}
+h3{
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 35px;
+    left: 35%;
+}
+
+/*CSS for food menu section */
+.food-menu{
+    padding: 4% 0;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+/*CSS for social*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color:#ff6b81 ;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover
+{ 
+    color: white;
+    background-color:#ff6b81 ;
+}
+/* CSS for form-order */
+#form-oder{
+    margin-top: 90px;
+    text-align: center;
+    background-image: url(./images/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form-oder .form-content{
+    padding: 100px 0;
+    
+}
+
+#form-oder .border-form{
+    margin: 48px calc(100%/3);
+    border: 1px #fff solid;
+    border-radius: 4px;
+    padding: 24px 16px;
+    text-align: left;
+}
+
+#form-oder h1{
+    color: #fff;
+    font-weight: 500;  
+}
+
+.border-form input:not(#order-btt){
+    width: 100%;
+    padding: 4px 2px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 4px;
+}
+
+.select-food .food-img{
+    padding: 0 32px 0 0;
+}
+
+.form-content .delivery-details input{
+    margin-bottom: 16px;
+}
+
+.delivery-details input[type="button"]{
+    background-color: var(--color-main);
+    color: #fff;
+    padding: 4px 2px;
+    border-radius: 4px;
+    border: none;
+    margin: 4px 0 0 0;
+}
+
+.delivery-details .Email{
+    height: 200px;
+}
+
+.delivery-details textarea{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-top: 4px;
+}
+
+/* css for admin */
+.menu-admin-text{
+    color: #ff6b81 !important;
+    text-decoration: none;
+}
+.buton{
+    background-color: rgb(119, 119, 245);
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    border: none;
+    font-size: 0.8rem;
+   
+}
+.text-left{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.text-blue{
+    color: blue !important;
+    text-decoration: underline;
+}
+.bg-white{
+    background-color: white !important;
+}
+.content{
+    padding: 5%;
+}
+
